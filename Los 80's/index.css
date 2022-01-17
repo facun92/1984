@@ -154,6 +154,214 @@ header {
     20%{opacity: 0;}
     to{opacity: 0;}
   }
+   
+  
+  .january {
+      height: 10%;
+      width: auto;
+      display: flex;
+      justify-content: center;
+      
+      
+  }
   
   
+  .jh2 {
+      color: fuchsia;
+      animation: mymove2 1s infinite;
+      
+  }
+  
+
+  @keyframes mymove2 {
+    0% {color: cyan; left: 50px; top:0px; }
+    100% {color: fuchsia; left: 50px; top:0px;  }
+            }
+
+ .february {
+ height: 10%;
+ width: auto;
+ display: flex;
+justify-content: center;
+
+            }
+.fh2 {
+    color: fuchsia;
+animation: mymove2 1s infinite;
+}
+@keyframes mymove2 {
+    0% {color: cyan; left: 50px; top:0px; }
+    100% {color: fuchsia; left: 50px; top:0px;  }
+            }
+
+ .march {
+     height: 10%;
+     width: auto;
+     display: flex;
+    justify-content: center;
+    
+ }           
+ .mh2 {
+     color: fuchsia;
+    animation: mymove2 1s infinite;
+
+ }
+ @keyframes mymove2 {
+    0% {color: cyan; left: 50px; top:0px; }
+    100% {color: fuchsia; left: 50px; top:0px;  }
+            }
+
+.april {
+    height: 10%;
+     width: auto;
+     display: flex;
+    justify-content: center;
+    
+}
+.ah2{
+    color: fuchsia;
+    animation: mymove2 1s infinite;
+
+}
+@keyframes mymove2 {
+    0% {color: cyan; left: 50px; top:0px; }
+    100% {color: fuchsia; left: 50px; top:0px;  }
+            }
+
+ .may {
+    height: 10%;
+    width: auto;
+    display: flex;
+   justify-content: center;
+   
+
+ } 
+ .mah2 {
+    color: fuchsia;
+    animation: mymove2 1s infinite;
+
+ }          
+ @keyframes mymove2 {
+    0% {color: cyan; left: 50px; top:0px; }
+    100% {color: fuchsia; left: 50px; top:0px;  }
+            }
+
+ .june {
+    height: 10%;
+    width: auto;
+    display: flex;
+   justify-content: center;
+        
+
+ }  
+ .juh2{
+    color: fuchsia;
+    animation: mymove2 1s infinite;
+
+ }    
  
+ @keyframes mymove2 {
+    0% {color: cyan; left: 50px; top:0px; }
+    100% {color: fuchsia; left: 50px; top:0px;  }
+            }
+
+ .july{
+    height: 10%;
+    width: auto;
+    display: flex;
+   justify-content: center;
+ }           
+ .julh2 {
+    color: fuchsia;
+    animation: mymove2 1s infinite;
+ }
+ @keyframes mymove2 {
+    0% {color: cyan; left: 50px; top:0px; }
+    100% {color: fuchsia; left: 50px; top:0px;  }
+            }
+
+ .august{
+    height: 10%;
+    width: auto;
+    display: flex;
+   justify-content: center;
+
+ }           
+ .auh2{
+    color: fuchsia;
+    animation: mymove2 1s infinite;
+
+ }
+ @keyframes mymove2 {
+    0% {color: cyan; left: 50px; top:0px; }
+    100% {color: fuchsia; left: 50px; top:0px;  }
+            }
+.september {
+    height: 10%;
+    width: auto;
+    display: flex;
+   justify-content: center;
+
+}
+.seph2 {
+    color: fuchsia;
+    animation: mymove2 1s infinite;
+
+}
+@keyframes mymove2 {
+    0% {color: cyan; left: 50px; top:0px; }
+    100% {color: fuchsia; left: 50px; top:0px;  }
+            }
+.october{
+    height: 10%;
+    width: auto;
+    display: flex;
+   justify-content: center;
+
+}
+.och2{
+    color: fuchsia;
+    animation: mymove2 1s infinite;
+}
+@keyframes mymove2 {
+    0% {color: cyan; left: 50px; top:0px; }
+    100% {color: fuchsia; left: 50px; top:0px;  }
+            }
+.november {
+    height: 10%;
+    width: auto;
+    display: flex;
+   justify-content: center;
+
+}
+.novh2{
+    color: fuchsia;
+    animation: mymove2 1s infinite;    
+}
+@keyframes mymove2 {
+    0% {color: cyan; left: 50px; top:0px; }
+    100% {color: fuchsia; left: 50px; top:0px;  }
+            }
+.december{
+    height: 10%;
+    width: auto;
+    display: flex;
+   justify-content: center;
+
+}
+.dech2{
+    color: fuchsia;
+    animation: mymove2 1s infinite;
+}
+@keyframes mymove2 {
+    0% {color: cyan; left: 50px; top:0px; }
+    100% {color: fuchsia; left: 50px; top:0px;  }
+            }
+
+.algo {
+    color: fuchsia;
+}
+
+
+
+
