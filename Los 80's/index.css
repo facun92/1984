@@ -26,6 +26,11 @@ li, a {
 
 
 }
+h1 {
+    height: auto;
+   width: min-content;
+
+}
  
 header {
      
@@ -39,11 +44,7 @@ header {
 
     
 }
- h1 {
-     height: auto;
-     width: 50px;
 
- }
 .cabecera {
     display: flex;
     justify-content: flex-start;
@@ -154,38 +155,68 @@ header {
     20%{opacity: 0;}
     to{opacity: 0;}
   }
-   
-  
-  .january {
-      height: 10%;
-      width: auto;
-      display: flex;
-      justify-content: center;
-      
-      
+  .pacman1 {
+    width: 100%;
+    width: 170px;
+    height: 150px;
+    position: relative;
+    display: inline-block ;
+    margin-left: 85%;
+    margin-top: 0%;
+
+    
+    
   }
+     
+   
+.separa {
+     height: 4px;
+     background-color: fuchsia;
+}
+
+li {
+    
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+  .ochenta {
+      height: auto;
+      width: auto;
+    display: inline;
+    
+    }
+
+
   
-  
-  .jh2 {
+  .ochocero {
+      width: 100%;
+      font-size: 70px;
       color: fuchsia;
+      padding-top: none;
+      margin-top: -2%;
       animation: mymove2 1s infinite;
       
   }
+
+ 
   
 
   @keyframes mymove2 {
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
-
- .february {
+            
+            
+ .ochentayuno {
  height: 10%;
  width: auto;
  display: flex;
 justify-content: center;
 
             }
-.fh2 {
+.ochouno {
     color: fuchsia;
 animation: mymove2 1s infinite;
 }
@@ -194,14 +225,14 @@ animation: mymove2 1s infinite;
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
- .march {
+ .ochentaydos {
      height: 10%;
      width: auto;
      display: flex;
     justify-content: center;
     
  }           
- .mh2 {
+ .ochodos {
      color: fuchsia;
     animation: mymove2 1s infinite;
 
@@ -211,14 +242,14 @@ animation: mymove2 1s infinite;
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
-.april {
+.ochentaytres {
     height: 10%;
      width: auto;
      display: flex;
     justify-content: center;
     
 }
-.ah2{
+.ochotres {
     color: fuchsia;
     animation: mymove2 1s infinite;
 
@@ -228,7 +259,7 @@ animation: mymove2 1s infinite;
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
- .may {
+ .ochentaycuatro {
     height: 10%;
     width: auto;
     display: flex;
@@ -236,7 +267,7 @@ animation: mymove2 1s infinite;
    
 
  } 
- .mah2 {
+ .ochocuatro {
     color: fuchsia;
     animation: mymove2 1s infinite;
 
@@ -246,7 +277,7 @@ animation: mymove2 1s infinite;
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
- .june {
+ .ochentaycinco {
     height: 10%;
     width: auto;
     display: flex;
@@ -254,7 +285,7 @@ animation: mymove2 1s infinite;
         
 
  }  
- .juh2{
+ .ochocinco {
     color: fuchsia;
     animation: mymove2 1s infinite;
 
@@ -265,13 +296,13 @@ animation: mymove2 1s infinite;
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
- .july{
+ .ochentayseis {
     height: 10%;
     width: auto;
     display: flex;
    justify-content: center;
  }           
- .julh2 {
+ .ochoseis {
     color: fuchsia;
     animation: mymove2 1s infinite;
  }
@@ -280,14 +311,14 @@ animation: mymove2 1s infinite;
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
- .august{
+ .ochentaysiete {
     height: 10%;
     width: auto;
     display: flex;
    justify-content: center;
 
  }           
- .auh2{
+ .ochosiete {
     color: fuchsia;
     animation: mymove2 1s infinite;
 
@@ -296,14 +327,14 @@ animation: mymove2 1s infinite;
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
-.september {
+.ochentayocho {
     height: 10%;
     width: auto;
     display: flex;
    justify-content: center;
 
 }
-.seph2 {
+.ochoocho {
     color: fuchsia;
     animation: mymove2 1s infinite;
 
@@ -312,55 +343,21 @@ animation: mymove2 1s infinite;
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
-.october{
+.ochentaynueve {
     height: 10%;
     width: auto;
     display: flex;
    justify-content: center;
 
 }
-.och2{
+.ochonueve {
     color: fuchsia;
     animation: mymove2 1s infinite;
 }
 @keyframes mymove2 {
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
-            }
-.november {
-    height: 10%;
-    width: auto;
-    display: flex;
-   justify-content: center;
 
-}
-.novh2{
-    color: fuchsia;
-    animation: mymove2 1s infinite;    
-}
-@keyframes mymove2 {
-    0% {color: cyan; left: 50px; top:0px; }
-    100% {color: fuchsia; left: 50px; top:0px;  }
-            }
-.december{
-    height: 10%;
-    width: auto;
-    display: flex;
-   justify-content: center;
-
-}
-.dech2{
-    color: fuchsia;
-    animation: mymove2 1s infinite;
-}
-@keyframes mymove2 {
-    0% {color: cyan; left: 50px; top:0px; }
-    100% {color: fuchsia; left: 50px; top:0px;  }
-            }
-
-.algo {
-    color: fuchsia;
-}
 
 
 
