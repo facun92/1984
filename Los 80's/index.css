@@ -178,7 +178,7 @@ li {
     
     padding-left: 15px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
   .ochenta {
@@ -199,32 +199,59 @@ li {
       animation: mymove2 1s infinite;
       
   }
-
- 
-  
+   
 
   @keyframes mymove2 {
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
             
+    .separa2 {
+        height: 4px;
+     background-color: fuchsia;
+    }    
             
- .ochentayuno {
- height: 10%;
- width: auto;
- display: flex;
-justify-content: center;
 
+ .ochentayuno {
+    height: auto;
+    width: auto;
+  display: inline;
+  
             }
 .ochouno {
+    width: 100%;
+    font-size: 70px;
     color: fuchsia;
-animation: mymove2 1s infinite;
+    padding-top: none;
+    margin-top: 0%;
+    animation: mymove2 1s infinite;
+
 }
 @keyframes mymove2 {
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
+            .ochouno li{
+                display: flex;
+                justify-content: left;
+                align-items: center;
+            }
+
+            .mtvlogo1 {
+                width: 100%;
+                width: 250px;
+                height: 220px;
+                position: relative;
+                display: inline-block ;
+                margin-left: 85%;
+                margin-top: -10%;
+            
+            
+             }      
+                
+         
+           
  .ochentaydos {
      height: 10%;
      width: auto;
@@ -357,7 +384,9 @@ animation: mymove2 1s infinite;
 @keyframes mymove2 {
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
-
+       }
+       
+ 
 
 
 
