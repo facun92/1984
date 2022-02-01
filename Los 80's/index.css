@@ -253,32 +253,66 @@ li {
          
            
  .ochentaydos {
-     height: 10%;
-     width: auto;
-     display: flex;
-    justify-content: center;
+    height: auto;
+    width: auto;
+  display: inline;
     
  }           
  .ochodos {
-     color: fuchsia;
+    width: 100%;
+    font-size: 70px;
+    color: fuchsia;
+    padding-top: none;
+    margin-top: 0%;
     animation: mymove2 1s infinite;
+
 
  }
  @keyframes mymove2 {
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
+    
+            .etlogo {
+                width: 100%;
+                width: 150px;
+                height: 120px;
+                position: relative;
+                display: inline-block ;
+                margin-left: 90%;
+                margin-top: -7%;
+            
+
+            }
+            .thrillerlogo {
+                width: 100%;
+                width: 340px;
+                height: 250px;
+              position: sticky
+                display: inline-block;
+                margin-left: 80%;
+                margin-top: -100%;
+                
+            }
+            .separa3 {
+                height: 4px;
+                background-color: fuchsia;
+            }
 
 .ochentaytres {
-    height: 10%;
-     width: auto;
-     display: flex;
-    justify-content: center;
+    height: auto;
+    width: auto;
+  display: inline;
     
 }
 .ochotres {
+    width: 100%;
+    font-size: 70px;
     color: fuchsia;
+    padding-top: none;
+    margin-top: 0%;
     animation: mymove2 1s infinite;
+
 
 }
 @keyframes mymove2 {
@@ -287,16 +321,20 @@ li {
             }
 
  .ochentaycuatro {
-    height: 10%;
+    height: auto;
     width: auto;
-    display: flex;
-   justify-content: center;
+  display: inline;
    
 
  } 
  .ochocuatro {
+    width: 100%;
+    font-size: 70px;
     color: fuchsia;
+    padding-top: none;
+    margin-top: 0%;
     animation: mymove2 1s infinite;
+
 
  }          
  @keyframes mymove2 {
@@ -305,15 +343,18 @@ li {
             }
 
  .ochentaycinco {
-    height: 10%;
+  
+    height: auto;
     width: auto;
-    display: flex;
-   justify-content: center;
-        
+  display: inline;
 
  }  
  .ochocinco {
+    width: 100%;
+    font-size: 70px;
     color: fuchsia;
+    padding-top: none;
+    margin-top: 0%;
     animation: mymove2 1s infinite;
 
  }    
@@ -324,14 +365,18 @@ li {
             }
 
  .ochentayseis {
-    height: 10%;
+    height: auto;
     width: auto;
-    display: flex;
-   justify-content: center;
+  display: inline;
  }           
  .ochoseis {
+    width: 100%;
+    font-size: 70px;
     color: fuchsia;
+    padding-top: none;
+    margin-top: 0%;
     animation: mymove2 1s infinite;
+
  }
  @keyframes mymove2 {
     0% {color: cyan; left: 50px; top:0px; }
@@ -339,14 +384,16 @@ li {
             }
 
  .ochentaysiete {
-    height: 10%;
+    height: auto;
     width: auto;
-    display: flex;
-   justify-content: center;
-
+  display: inline;
  }           
  .ochosiete {
+    width: 100%;
+    font-size: 70px;
     color: fuchsia;
+    padding-top: none;
+    margin-top: 0%;
     animation: mymove2 1s infinite;
 
  }
@@ -355,14 +402,17 @@ li {
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 .ochentayocho {
-    height: 10%;
+    height: auto;
     width: auto;
-    display: flex;
-   justify-content: center;
+  display: inline;
 
 }
 .ochoocho {
+    width: 100%;
+    font-size: 70px;
     color: fuchsia;
+    padding-top: none;
+    margin-top: 0%;
     animation: mymove2 1s infinite;
 
 }
@@ -371,15 +421,18 @@ li {
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 .ochentaynueve {
-    height: 10%;
+    height: auto;
     width: auto;
-    display: flex;
-   justify-content: center;
-
+  display: inline;
 }
 .ochonueve {
+    width: 100%;
+    font-size: 70px;
     color: fuchsia;
+    padding-top: none;
+    margin-top: 0%;
     animation: mymove2 1s infinite;
+
 }
 @keyframes mymove2 {
     0% {color: cyan; left: 50px; top:0px; }
