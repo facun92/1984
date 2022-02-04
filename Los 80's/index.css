@@ -238,6 +238,16 @@ li {
                 align-items: center;
             }
 
+            .konglogo {
+                width: 90%;
+                width: 190px;
+                height: 140px;
+                position: relative;
+                display: inline-block ;
+                margin-left: 60%;
+                margin-top: -5%;
+            }
+
             .mtvlogo1 {
                 width: 100%;
                 width: 250px;
@@ -245,7 +255,7 @@ li {
                 position: relative;
                 display: inline-block ;
                 margin-left: 85%;
-                margin-top: -10%;
+                margin-top: -20%;
             
             
              }      
@@ -281,6 +291,7 @@ li {
                 display: inline-block ;
                 margin-left: 90%;
                 margin-top: -7%;
+                border-radius: 20%;
             
 
             }
@@ -319,6 +330,33 @@ li {
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
+
+.pclogo{
+  width: 100%;
+  width: 170px;
+  height: 150px;
+  position: relative;
+  display: inline-block ;
+  margin-left: 90%;
+  margin-top: -5%;
+
+}
+
+.mariologo{
+  width: 100%;
+  width: 180px;
+  height: 170px;
+  position: relative;
+  display: inline-block ;
+  margin-left: 75%;
+  margin-top: -10%;
+border-radius: 5px;
+}
+
+.separacuatro {
+  height: 4px;
+  background-color: fuchsia;
+}
 
  .ochentaycuatro {
     height: auto;
