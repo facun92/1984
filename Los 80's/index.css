@@ -380,7 +380,108 @@ border-radius: 5px;
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
- .ochentaycinco {
+.falcorlogo {
+  line-height: 0;
+  font-size: 0;
+}
+
+.falcorlogo1{
+  width: 100%;
+  width: 180px;
+  height: 130px;
+  position: relative;
+ display: block;
+  margin-left: 75%;
+  margin-top: -7%;
+border-radius: 5px;
+}
+
+.gremlin{
+  line-height: 0;
+  font-size: 0;
+}
+
+.gremlinlogo{
+  width: 100%;
+  width: 180px;
+  height: 138px;
+  position: relative;
+ display: block;
+  margin-left: 75%;
+  margin-top: -7%;
+border-radius: 5px;
+}
+
+.terminator {
+  line-height: 0;
+  font-size: 0;
+}
+ 
+
+.terminatorlogo {
+  width: 100%;
+  width: 180px;
+  height: 138px;
+  position: relative;
+ display: block;
+  margin-left: 75%;
+  margin-top: -7%;
+border-radius: 5px;
+}
+
+.freddy{
+  line-height: 0;
+  font-size: 0;
+}
+
+.freddylogo{
+  width: 100%;
+  width: 180px;
+  height: 142px;
+  position: relative;
+ display: block;
+  margin-left: 85%;
+  margin-top: -7.5%;
+border-radius: 5px;
+}
+
+.cazafantasmas {
+  line-height: 0;
+  font-size: 0;
+}
+
+.cazalogo {
+  width: 100%;
+  width: 180px;
+  height: 142px;
+  position: relative;
+ display: block;
+  margin-left: 85%;
+  margin-top: -7.5%;
+border-radius: 5px;
+}
+
+.cyndilauper {
+  line-height: 0;
+  font-size: 0;
+}
+
+.cyndilogo {
+  width: 100%;
+  width: 180px;
+  height: 140px;
+  position: relative;
+ display: block;
+  margin-left: 90%;
+  margin-top: -5%;
+border-radius: 5px;
+}
+.separacinco{
+  height: 4px;
+  background-color: fuchsia;
+}
+
+.ochentaycinco {
   
     height: auto;
     width: auto;
