@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #3b043a;
+    background-color: black;
 }
 .cuerpo{
     background-image: url(./images/real.jpg);
@@ -155,6 +155,13 @@ header {
     20%{opacity: 0;}
     to{opacity: 0;}
   }
+
+  .separagenesis {
+    height: 4px;
+    background-color: fuchsia;
+  }
+  
+  
   .pacman1 {
     width: 100%;
     width: 170px;
@@ -295,6 +302,25 @@ li {
             
 
             }
+
+.knightrider{
+  line-height: 0;
+  font-size: 0;
+}
+
+.knightriderlogo {
+  width: 100%;
+  width: 400px;
+  height: 250px;
+  position: relative;
+ display: block;
+  margin-left: 70%;
+  margin-top: -13.2%;
+border-radius: 5px;
+}
+
+
+
             .thrillerlogo {
                 width: 100%;
                 width: 340px;
@@ -340,6 +366,22 @@ li {
   margin-left: 90%;
   margin-top: -5%;
 
+}
+
+.wargames {
+  line-height: 0;
+  font-size: 0;
+}
+
+.wargameslogo {
+  width: 100%;
+  width: 400px;
+  height: 250px;
+  position: relative;
+ display: block;
+  margin-left: 70%;
+  margin-top: -13.2%;
+border-radius: 5px;
 }
 
 .mariologo{
@@ -502,6 +544,58 @@ border-radius: 5px;
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
+
+.madonna {
+  line-height: 0;
+  font-size: 0;
+}
+
+.madonnalogo {
+  width: 100%;
+  width: 230px;
+  height: 250px;
+  position: relative;
+ display: block;
+  margin-left: 67%;
+  margin-top: -13%;
+border-radius: 5px;
+}
+
+.backfuture {
+  line-height: 0;
+  font-size: 0;
+}
+
+.futurelogo {
+  width: 100%;
+  width: 250px;
+  height: 190px;
+  position: relative;
+ display: block;
+  margin-left: 80%;
+  margin-top: -10%;
+border-radius: 1px;
+}
+
+.mcgyver {
+  line-height: 0;
+  font-size: 0;
+}
+
+.mcgyverlogo {
+  width: 100%;
+  width: 270px;
+  height: 190px;
+  position: relative;
+ display: block;
+  margin-left: 80%;
+  margin-top: -10%;
+border-radius: 1px;
+}
+.separaseis {
+  height: 4px;
+  background-color: fuchsia;
+}
 
  .ochentayseis {
     height: auto;
