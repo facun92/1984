@@ -161,21 +161,71 @@ header {
     background-color: fuchsia;
   }
   
+  .pac1 {
+    line-height: 0;
+    font-size: 0;
+  }
   
   .pacman1 {
     width: 100%;
     width: 170px;
     height: 150px;
     position: relative;
-    display: inline-block ;
-    margin-left: 85%;
-    margin-top: 0%;
+    display: block;
+    margin-left: 91%;
+    margin-top: -10%;
 
     
     
   }
-     
+    
+  .pac2 {
+    line-height: 0;
+    font-size: 0;
+  }
+
+  .pacman2 {
+    width: 100%;
+    width: 170px;
+    height: 90px;
+    position: relative;
+    display: block;
+    margin-left: 0%;
+    margin-top: -0%;
+    margin-bottom: 1%;
+  }
+
+  .jason{
+    line-height: 0;
+    font-size: 0;
+  }
    
+  .jasonlogo {
+    width: 100%;
+    width: 180px;
+    height: 100px;
+    position: relative;
+    display: block;
+    margin-left: 70%;
+    margin-top: -5%;
+    
+  }
+
+  .starwars {
+    line-height: 0;
+    font-size: 0;
+  }
+
+.starwarslogo {
+  width: 100%;
+  width: 180px;
+  height: 150px;
+  position: relative;
+  display: block;
+  margin-left: 90%;
+  margin-top: -7%;
+}
+
 .separa {
      height: 4px;
      background-color: fuchsia;
@@ -202,7 +252,7 @@ li {
       font-size: 70px;
       color: fuchsia;
       padding-top: none;
-      margin-top: -2%;
+      margin-top: 0%;
       animation: mymove2 1s infinite;
       
   }
@@ -515,7 +565,7 @@ border-radius: 5px;
   position: relative;
  display: block;
   margin-left: 90%;
-  margin-top: -5%;
+  margin-top: -7.5%;
 border-radius: 5px;
 }
 .separacinco{
@@ -616,6 +666,76 @@ border-radius: 1px;
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
+.alf {
+  line-height: 0;
+  font-size: 0;
+}
+
+.alflogo {
+  width: 100%;
+  width: 230px;
+  height: 250px;
+  position: relative;
+ display: block;
+  margin-left: 80%;
+  margin-top: -13%;
+border-radius: 1px;
+}
+
+.karatekid {
+  line-height: 0;
+  font-size: 0;
+}
+
+.karatelogo {
+  width: 100%;
+  width: 210px;
+  height: 130px;
+  position: relative;
+ display: block;
+  margin-left: 80%;
+  margin-top: -4%;
+border-radius: 5px;
+}
+
+.topgun {
+  line-height: 0;
+  font-size: 0;
+}
+
+.topgunlogo {
+  width: 100%;
+  width: 230px;
+  height: 150px;
+  position: relative;
+ display: block;
+  margin-left: 80%;
+  margin-top: -8%;
+border-radius: 100px;
+}
+
+.critters {
+  line-height: 0;
+  font-size: 0;
+}
+
+.critterslogo {
+  width: 100%;
+  width: 230px;
+  height: 150px;
+  position: relative;
+ display: block;
+  margin-left: 80%;
+  margin-top: -8%;
+border-radius: 5px;
+}
+
+.separasiete {
+  height: 4px;
+  background-color: fuchsia;
+  margin-top: 2%;
+}
+
  .ochentaysiete {
     height: auto;
     width: auto;
@@ -634,6 +754,9 @@ border-radius: 1px;
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
+
+
+          
 .ochentayocho {
     height: auto;
     width: auto;
