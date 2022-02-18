@@ -824,7 +824,7 @@ border-radius: 5px;
   height: 4px;
   background-color: fuchsia;
   margin-top: 2%;
-  padding: 0%;
+ 
 }
 
 .ochentayocho {
@@ -846,6 +846,80 @@ border-radius: 5px;
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
+
+.beetlejuice {
+  line-height: 0;
+  font-size: 0;
+}
+
+.beetlelogo {
+  width: 100%;
+  width: 250px;
+  height: 160px;
+  position: relative;
+ display: block;
+ margin-left: 83%;
+  margin-top: -5.5%;
+  border-radius: 80%;
+}
+
+.bloodlogo {
+  line-height: 0;
+  font-size: 0;
+}
+
+
+.bloodspot {
+  width: 100%;
+  width: 250px;
+  height: 160px;
+  position: relative;
+ display: block;
+ margin-left: 83%;
+  margin-top: -8.5%;
+  border-radius: 5px;
+}
+
+.moonwalker {
+  line-height: 0;
+  font-size: 0;
+}
+
+
+.moonlogo {
+  width: 100%;
+  width: 230px;
+  height: 240px;
+  position: relative;
+ display: block;
+  margin-left: 80%;
+  margin-top: -12.7%;
+border-radius: 5px;
+}
+
+.chucky {
+  line-height: 0;
+  font-size: 0;
+}
+
+.chuckylogo {
+  width: 100%;
+  width: 230px;
+  height: 240px;
+  position: relative;
+ display: block;
+  margin-left: 80%;
+  margin-top: -12.7%;
+border-radius: 5px;
+}
+
+.separanueve {
+  height: 4px;
+  background-color: fuchsia;
+  margin-top: 2%;
+}
+
+
 .ochentaynueve {
     height: auto;
     width: auto;
