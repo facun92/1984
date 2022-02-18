@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Readex+Pro:wght@300;500&family=Roboto+Mono:ital,wght@0,300;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 
 * {
@@ -12,26 +12,38 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-style: ridge;
-    border-color: fuchsia;
+    border-color: rgb(0, 168, 0);
     height: auto;
     width: auto;
     
 }
 li, a {
-    font-family: 'Roboto Mono', monospace;
+  font-family: 'Press Start 2P', cursive;
     font-weight: 500;
-    font-size: 18px;
-    color: fuchsia;
+    font-size: 10px;
+    color: rgb(31, 253, 31);
     text-decoration: none;
 
 
 }
 h1 {
-    height: auto;
-   width: min-content;
-
+    height: 200px;
+   width: auto;
+font-size: larger;
+display: flex;
+justify-content: center;
+align-items: center;
 }
- 
+  
+
+font {
+  color: red
+}
+
+  ul {
+   color: rgb(0, 175, 0);
+  }
+
 header {
      
     display: flex;
@@ -39,18 +51,19 @@ header {
     align-items: center;
     padding: -3px 8%;
     border-style: ridge;
-    border-color: fuchsia;
+    border-color:  rgb(0, 185, 0)
     
 
     
 }
 
 .cabecera {
+  font-family: 'Press Start 2P', cursive;
     display: flex;
     justify-content: flex-start;
     cursor: pointer;
-    color: fuchsia;
-    width: auto;
+    color:  red;
+    width: 50%;
     height: 50%;
     font-size: 90px;
     margin-right: 10%;
@@ -59,9 +72,8 @@ header {
 }
 
 @keyframes mymove {
-    0% {color: cyan; left: 50px; top:0px; }
-    50% {color:  darkslateblue; left: 50px; top:0px; }
-    100% {color: fuchsia; left: 50px; top: 0px; }
+    0% {color: red; left: 50px; top:0px; }
+    100% {color: rgb(0, 255, 0); left: 50px; top: 0px; }
     
 }
  
@@ -82,7 +94,7 @@ header {
     transition: all 0.3s ease 0s;
  }
   .nav1 li a:hover {
-      color: cyan;
+      color: red;
   }
   
   .img-fluid {
@@ -90,30 +102,33 @@ header {
       width: 100%;
       opacity:0.6;
       border-style: ridge;
-      border-color: fuchsia;
+      border-color: rgb(0, 189, 0);
   }
   .pie {
       background-image: url(./images/pacman.jpg);
       height: 150px;
       width: auto;
       border-style: ridge;
-      border-color: fuchsia;
+      border-color:rgb(0, 165, 0);
       
 
   }
   .pie h2 {
       background-image: url(./images/pacman.jpg);
-      color: fuchsia;
+      color: rgb(0, 165, 0);
       font-size: 30px;
-      font-family: monospace;
+      font-family: 'Press Start 2P', cursive;
     
   }
 
   .pie p {
-      background-image: url(./images/pacman.jpg);
-      color: cyan;
-     display: flex;
-     justify-content: center
+    height: 50px;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(./images/pacman.jpg);
+    color: red;
+    display: flex;
+    justify-content: center
+     
   }
  
   
@@ -157,8 +172,9 @@ header {
   }
 
   .separagenesis {
+    margin-top: 10px;
     height: 4px;
-    background-color: fuchsia;
+    background-color:rgb(0, 172, 0);
   }
   
   .pac1 {
@@ -206,8 +222,8 @@ header {
     height: 100px;
     position: relative;
     display: block;
-    margin-left: 70%;
-    margin-top: -5%;
+    margin-left: 80%;
+    margin-top: -5.3%;
     
   }
 
@@ -223,12 +239,12 @@ header {
   position: relative;
   display: block;
   margin-left: 90%;
-  margin-top: -7%;
+  margin-top: -9%;
 }
 
 .separa {
      height: 4px;
-     background-color: fuchsia;
+     background-color: rgb(0, 172, 0);
 }
 
 li {
@@ -248,24 +264,25 @@ li {
 
   
   .ochocero {
+    font-family: 'Press Start 2P', cursive;
       width: 100%;
-      font-size: 70px;
-      color: fuchsia;
+      font-size: 40px;
+      color: red;
       padding-top: none;
-      margin-top: 0%;
+      margin-top: 1.7%;
       animation: mymove2 1s infinite;
       
   }
    
 
   @keyframes mymove2 {
-    0% {color: cyan; left: 50px; top:0px; }
-    100% {color: fuchsia; left: 50px; top:0px;  }
+    0% {color: red; left: 50px; top:0px; }
+    100% {color: rgb(0, 192, 0); left: 50px; top:0px;  }
             }
             
     .separa2 {
         height: 4px;
-     background-color: fuchsia;
+     background-color: rgb(0, 173, 0);
     }    
             
 
@@ -276,17 +293,18 @@ li {
   
             }
 .ochouno {
+  font-family: 'Press Start 2P', cursive;
     width: 100%;
-    font-size: 70px;
+    font-size: 40px;
     color: fuchsia;
-    padding-top: none;
+    padding-top: 0%;
     margin-top: 0%;
     animation: mymove2 1s infinite;
 
 }
 @keyframes mymove2 {
-    0% {color: cyan; left: 50px; top:0px; }
-    100% {color: fuchsia; left: 50px; top:0px;  }
+    0% {color: red; left: 50px; top:0px; }
+    100% {color: rgb(0, 255, 0); left: 50px; top:0px;  }
             }
 
             .ochouno li{
@@ -298,11 +316,11 @@ li {
             .konglogo {
                 width: 90%;
                 width: 190px;
-                height: 140px;
+                height: 120px;
                 position: relative;
                 display: inline-block ;
                 margin-left: 60%;
-                margin-top: -5%;
+                margin-top: -3.5%;
             }
 
             .mtvlogo1 {
@@ -326,11 +344,12 @@ li {
     
  }           
  .ochodos {
+  font-family: 'Press Start 2P', cursive;
     width: 100%;
-    font-size: 70px;
+    font-size: 40px;
     color: fuchsia;
     padding-top: none;
-    margin-top: 0%;
+    margin-top: -1.3%;
     animation: mymove2 1s infinite;
 
 
@@ -347,7 +366,7 @@ li {
                 position: relative;
                 display: inline-block ;
                 margin-left: 90%;
-                margin-top: -7%;
+                margin-top: -3%;
                 border-radius: 20%;
             
 
@@ -360,30 +379,34 @@ li {
 
 .knightriderlogo {
   width: 100%;
-  width: 400px;
-  height: 250px;
+  width: 200px;
+  height: 150px;
   position: relative;
  display: block;
-  margin-left: 70%;
-  margin-top: -13.2%;
+  margin-left: 80%;
+  margin-top: -7.9%;
 border-radius: 5px;
 }
 
-
+.thriller {
+  line-height: 0;
+  font-size: 0;
+}
 
             .thrillerlogo {
-                width: 100%;
-                width: 340px;
-                height: 250px;
-              position: sticky
-                display: inline-block;
-                margin-left: 80%;
-                margin-top: -100%;
+              width: 180%;
+              width: 250px;
+              height: 190px;
+              position: relative;
+             display: block;
+              margin-left: 80%;
+              margin-top: -11%;
+            border-radius: 5px;
                 
             }
             .separa3 {
                 height: 4px;
-                background-color: fuchsia;
+                background-color: rgb(0, 179, 0);
             }
 
 .ochentaytres {
@@ -393,11 +416,12 @@ border-radius: 5px;
     
 }
 .ochotres {
+  font-family: 'Press Start 2P', cursive;
     width: 100%;
-    font-size: 70px;
+    font-size: 40px;
     color: fuchsia;
     padding-top: none;
-    margin-top: 0%;
+    margin-top: 0.5%;
     animation: mymove2 1s infinite;
 
 
@@ -410,11 +434,11 @@ border-radius: 5px;
 .pclogo{
   width: 100%;
   width: 170px;
-  height: 150px;
+  height: 130px;
   position: relative;
   display: inline-block ;
   margin-left: 90%;
-  margin-top: -5%;
+  margin-top: -4%;
 
 }
 
@@ -425,12 +449,12 @@ border-radius: 5px;
 
 .wargameslogo {
   width: 100%;
-  width: 400px;
-  height: 250px;
+  width: 200px;
+  height: 210px;
   position: relative;
  display: block;
   margin-left: 70%;
-  margin-top: -13.2%;
+  margin-top: -11.1%;
 border-radius: 5px;
 }
 
@@ -447,7 +471,7 @@ border-radius: 5px;
 
 .separacuatro {
   height: 4px;
-  background-color: fuchsia;
+  background-color: rgb(0, 172, 0);
 }
 
  .ochentaycuatro {
@@ -458,11 +482,12 @@ border-radius: 5px;
 
  } 
  .ochocuatro {
+  font-family: 'Press Start 2P', cursive;
     width: 100%;
-    font-size: 70px;
+    font-size: 40px;
     color: fuchsia;
     padding-top: none;
-    margin-top: 0%;
+    margin-top: -1%;
     animation: mymove2 1s infinite;
 
 
@@ -484,25 +509,11 @@ border-radius: 5px;
   position: relative;
  display: block;
   margin-left: 75%;
-  margin-top: -7%;
+  margin-top: -6.8%;
 border-radius: 5px;
 }
 
-.gremlin{
-  line-height: 0;
-  font-size: 0;
-}
 
-.gremlinlogo{
-  width: 100%;
-  width: 180px;
-  height: 138px;
-  position: relative;
- display: block;
-  margin-left: 75%;
-  margin-top: -7%;
-border-radius: 5px;
-}
 
 .terminator {
   line-height: 0;
@@ -517,7 +528,7 @@ border-radius: 5px;
   position: relative;
  display: block;
   margin-left: 75%;
-  margin-top: -7%;
+  margin-top: -7.2%;
 border-radius: 5px;
 }
 
@@ -561,16 +572,17 @@ border-radius: 5px;
 .cyndilogo {
   width: 100%;
   width: 180px;
-  height: 140px;
+  height: 120px;
   position: relative;
  display: block;
   margin-left: 90%;
-  margin-top: -7.5%;
+  margin-top: -4%;
 border-radius: 5px;
 }
 .separacinco{
   height: 4px;
-  background-color: fuchsia;
+  background-color:rgb(0, 173, 0);
+
 }
 
 .ochentaycinco {
@@ -581,13 +593,14 @@ border-radius: 5px;
 
  }  
  .ochocinco {
+  font-family: 'Press Start 2P', cursive;
     width: 100%;
-    font-size: 70px;
+    font-size: 40px;
     color: fuchsia;
     padding-top: none;
     margin-top: 0%;
     animation: mymove2 1s infinite;
-
+margin-bottom: 2%;
  }    
  
  @keyframes mymove2 {
@@ -602,12 +615,12 @@ border-radius: 5px;
 
 .madonnalogo {
   width: 100%;
-  width: 230px;
-  height: 250px;
+  width: 160px;
+  height: 190px;
   position: relative;
  display: block;
-  margin-left: 67%;
-  margin-top: -13%;
+  margin-left: 75%;
+  margin-top: -10%;
 border-radius: 5px;
 }
 
@@ -618,12 +631,12 @@ border-radius: 5px;
 
 .futurelogo {
   width: 100%;
-  width: 250px;
-  height: 190px;
+  width: 180px;
+  height: 140px;
   position: relative;
  display: block;
-  margin-left: 80%;
-  margin-top: -10%;
+  margin-left: 90%;
+  margin-top: -7.4%;
 border-radius: 1px;
 }
 
@@ -634,17 +647,17 @@ border-radius: 1px;
 
 .mcgyverlogo {
   width: 100%;
-  width: 270px;
-  height: 190px;
+  width: 190px;
+  height: 100px;
   position: relative;
  display: block;
-  margin-left: 80%;
-  margin-top: -10%;
+  margin-left: 87%;
+  margin-top: -6%;
 border-radius: 1px;
 }
 .separaseis {
   height: 4px;
-  background-color: fuchsia;
+  background-color: rgb(0, 177, 0);
 }
 
  .ochentayseis {
@@ -653,11 +666,12 @@ border-radius: 1px;
   display: inline;
  }           
  .ochoseis {
+  font-family: 'Press Start 2P', cursive;
     width: 100%;
-    font-size: 70px;
+    font-size: 40px;
     color: fuchsia;
     padding-top: none;
-    margin-top: 0%;
+    margin-top: 0.4%;
     animation: mymove2 1s infinite;
 
  }
@@ -677,8 +691,8 @@ border-radius: 1px;
   height: 250px;
   position: relative;
  display: block;
-  margin-left: 80%;
-  margin-top: -13%;
+  margin-left: 85%;
+  margin-top: -13.2%;
 border-radius: 1px;
 }
 
@@ -690,7 +704,7 @@ border-radius: 1px;
 .karatelogo {
   width: 100%;
   width: 210px;
-  height: 130px;
+  height: 120px;
   position: relative;
  display: block;
   margin-left: 80%;
@@ -698,21 +712,7 @@ border-radius: 1px;
 border-radius: 5px;
 }
 
-.topgun {
-  line-height: 0;
-  font-size: 0;
-}
 
-.topgunlogo {
-  width: 100%;
-  width: 230px;
-  height: 150px;
-  position: relative;
- display: block;
-  margin-left: 80%;
-  margin-top: -8%;
-border-radius: 100px;
-}
 
 .critters {
   line-height: 0;
@@ -721,18 +721,18 @@ border-radius: 100px;
 
 .critterslogo {
   width: 100%;
-  width: 230px;
-  height: 150px;
+  width: 220px;
+  height: 90px;
   position: relative;
  display: block;
   margin-left: 80%;
-  margin-top: -8%;
+  margin-top: -6%;
 border-radius: 5px;
 }
 
 .separasiete {
   height: 4px;
-  background-color: fuchsia;
+  background-color: rgb(0, 172, 0);
   margin-top: 2%;
 }
 
@@ -742,11 +742,13 @@ border-radius: 5px;
   display: inline;
  }           
  .ochosiete {
+  font-family: 'Press Start 2P', cursive;
     width: 100%;
-    font-size: 70px;
+    font-size: 40px;
     color: fuchsia;
     padding-top: none;
-    margin-top: 0%;
+    margin-top: -0.75%;
+    margin-bottom: 2.9%;
     animation: mymove2 1s infinite;
 
  }
@@ -762,12 +764,12 @@ border-radius: 5px;
 
             .lostlogo {
               width: 100%;
-              width: 320px;
-              height: 132px;
+              width: 300px;
+              height: 90px;
               position: relative;
              display: block;
               margin-left: 80%;
-              margin-top: -5%;
+              margin-top: -6.5%;
             border-radius: 5px;
             }
 
@@ -778,12 +780,12 @@ border-radius: 5px;
 
 .gunslogo {
   width: 100%;
-  width: 230px;
-  height: 320px;
+  width: 150px;
+  height: 200px;
   position: relative;
  display: block;
-  margin-left: 80%;
-  margin-top: -17%;
+  margin-left: 88%;
+  margin-top: -10.5%;
 border-radius: 5px;
 }
 
@@ -799,30 +801,15 @@ border-radius: 5px;
   position: relative;
  display: block;
  margin-left: 80%;
-  margin-top: -10%;
+  margin-top: -11%;
   border-radius: 5px;
 }
 
-.hellraiser {
-  line-height: 0;
-  font-size: 0;
-}
-  
 
-.helllogo {
-  width: 100%;
-  width: 230px;
-  height: 240px;
-  position: relative;
- display: block;
-  margin-left: 80%;
-  margin-top: -12.7%;
-border-radius: 5px;
-}
 
 .separaocho {
   height: 4px;
-  background-color: fuchsia;
+  background-color:rgb(0, 175, 0);
   margin-top: 2%;
  
 }
@@ -834,11 +821,13 @@ border-radius: 5px;
 
 }
 .ochoocho {
+  font-family: 'Press Start 2P', cursive;
     width: 100%;
-    font-size: 70px;
+    font-size: 40px;
     color: fuchsia;
     padding-top: none;
-    margin-top: 0%;
+    margin-top: -1.1%;
+    margin-bottom: 2%;
     animation: mymove2 1s infinite;
 
 }
@@ -854,12 +843,12 @@ border-radius: 5px;
 
 .beetlelogo {
   width: 100%;
-  width: 250px;
-  height: 160px;
+  width: 220px;
+  height: 130px;
   position: relative;
  display: block;
  margin-left: 83%;
-  margin-top: -5.5%;
+  margin-top: -6.8%;
   border-radius: 80%;
 }
 
@@ -875,7 +864,7 @@ border-radius: 5px;
   height: 160px;
   position: relative;
  display: block;
- margin-left: 83%;
+ margin-left: 85%;
   margin-top: -8.5%;
   border-radius: 5px;
 }
@@ -888,12 +877,12 @@ border-radius: 5px;
 
 .moonlogo {
   width: 100%;
-  width: 230px;
-  height: 240px;
+  width: 210px;
+  height: 200px;
   position: relative;
  display: block;
-  margin-left: 80%;
-  margin-top: -12.7%;
+  margin-left: 60%;
+  margin-top: -10.5%;
 border-radius: 5px;
 }
 
@@ -915,7 +904,7 @@ border-radius: 5px;
 
 .separanueve {
   height: 4px;
-  background-color: fuchsia;
+  background-color: rgb(0, 173, 0);
   margin-top: 2%;
 }
 
