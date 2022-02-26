@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: black;
-}
+    }
 .cuerpo{
     background-image: url(./images/real.jpg);
     background-size: cover;
@@ -19,7 +21,7 @@
 }
 li, a {
   font-family: 'Press Start 2P', cursive;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 10px;
     color: rgb(31, 253, 31);
     text-decoration: none;
@@ -132,19 +134,25 @@ header {
   }
  
   
-  .carousel-css{
-     background-image: url(./images/mtv.jpg);
+  .carousel-css {
+     background-image: url(./images/sddefault.jpg);
     width: 60%;
     height: 635px;
     margin: 10px auto;
+    margin-bottom: 2%;
     overflow: hidden;
     position: relative;
     border-radius: 5px;
     
     
   }
+
+
+
+
   
-  .item{
+  
+ .item{
     width: 100%;
     height: 100%;
     animation-name: fade;
@@ -178,17 +186,19 @@ header {
   }
   
   .pac1 {
+    
     line-height: 0;
     font-size: 0;
   }
   
   .pacman1 {
+    
     width: 100%;
     width: 170px;
     height: 150px;
     position: relative;
     display: block;
-    margin-left: 91%;
+    margin-left: 89%;
     margin-top: -10%;
 
     
@@ -211,41 +221,7 @@ header {
     margin-bottom: 1%;
   }
 
-  .jason{
-    line-height: 0;
-    font-size: 0;
-  }
-   
-  .jasonlogo {
-    width: 100%;
-    width: 180px;
-    height: 100px;
-    position: relative;
-    display: block;
-    margin-left: 80%;
-    margin-top: -5.3%;
-    
-  }
 
-  .starwars {
-    line-height: 0;
-    font-size: 0;
-  }
-
-.starwarslogo {
-  width: 100%;
-  width: 180px;
-  height: 150px;
-  position: relative;
-  display: block;
-  margin-left: 90%;
-  margin-top: -9%;
-}
-
-.separa {
-     height: 4px;
-     background-color: rgb(0, 172, 0);
-}
 
 li {
     
@@ -269,7 +245,7 @@ li {
       font-size: 40px;
       color: red;
       padding-top: none;
-      margin-top: 1.7%;
+      margin-top: 0%;
       animation: mymove2 1s infinite;
       
   }
@@ -280,11 +256,7 @@ li {
     100% {color: rgb(0, 192, 0); left: 50px; top:0px;  }
             }
             
-    .separa2 {
-        height: 4px;
-     background-color: rgb(0, 173, 0);
-    }    
-            
+   
 
  .ochentayuno {
     height: auto;
@@ -313,24 +285,16 @@ li {
                 align-items: center;
             }
 
-            .konglogo {
-                width: 90%;
-                width: 190px;
-                height: 120px;
-                position: relative;
-                display: inline-block ;
-                margin-left: 60%;
-                margin-top: -3.5%;
-            }
+           
 
             .mtvlogo1 {
                 width: 100%;
-                width: 250px;
-                height: 220px;
+                width: 200px;
+                height: 160px;
                 position: relative;
                 display: inline-block ;
-                margin-left: 85%;
-                margin-top: -20%;
+                margin-left: 75%;
+                margin-top: -6%;
             
             
              }      
@@ -359,55 +323,7 @@ li {
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
     
-            .etlogo {
-                width: 100%;
-                width: 150px;
-                height: 120px;
-                position: relative;
-                display: inline-block ;
-                margin-left: 90%;
-                margin-top: -3%;
-                border-radius: 20%;
-            
-
-            }
-
-.knightrider{
-  line-height: 0;
-  font-size: 0;
-}
-
-.knightriderlogo {
-  width: 100%;
-  width: 200px;
-  height: 150px;
-  position: relative;
- display: block;
-  margin-left: 80%;
-  margin-top: -7.9%;
-border-radius: 5px;
-}
-
-.thriller {
-  line-height: 0;
-  font-size: 0;
-}
-
-            .thrillerlogo {
-              width: 180%;
-              width: 250px;
-              height: 190px;
-              position: relative;
-             display: block;
-              margin-left: 80%;
-              margin-top: -11%;
-            border-radius: 5px;
-                
-            }
-            .separa3 {
-                height: 4px;
-                background-color: rgb(0, 179, 0);
-            }
+           
 
 .ochentaytres {
     height: auto;
@@ -421,7 +337,7 @@ border-radius: 5px;
     font-size: 40px;
     color: fuchsia;
     padding-top: none;
-    margin-top: 0.5%;
+    margin-top: 0%;
     animation: mymove2 1s infinite;
 
 
@@ -431,32 +347,8 @@ border-radius: 5px;
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
-.pclogo{
-  width: 100%;
-  width: 170px;
-  height: 130px;
-  position: relative;
-  display: inline-block ;
-  margin-left: 90%;
-  margin-top: -4%;
 
-}
 
-.wargames {
-  line-height: 0;
-  font-size: 0;
-}
-
-.wargameslogo {
-  width: 100%;
-  width: 200px;
-  height: 210px;
-  position: relative;
- display: block;
-  margin-left: 70%;
-  margin-top: -11.1%;
-border-radius: 5px;
-}
 
 .mariologo{
   width: 100%;
@@ -469,10 +361,7 @@ border-radius: 5px;
 border-radius: 5px;
 }
 
-.separacuatro {
-  height: 4px;
-  background-color: rgb(0, 172, 0);
-}
+
 
  .ochentaycuatro {
     height: auto;
@@ -497,21 +386,7 @@ border-radius: 5px;
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
-.falcorlogo {
-  line-height: 0;
-  font-size: 0;
-}
 
-.falcorlogo1{
-  width: 100%;
-  width: 180px;
-  height: 130px;
-  position: relative;
- display: block;
-  margin-left: 75%;
-  margin-top: -6.8%;
-border-radius: 5px;
-}
 
 
 
@@ -527,63 +402,14 @@ border-radius: 5px;
   height: 138px;
   position: relative;
  display: block;
-  margin-left: 75%;
-  margin-top: -7.2%;
+  margin-left: 80%;
+  margin-top: -8%;
 border-radius: 5px;
 }
 
-.freddy{
-  line-height: 0;
-  font-size: 0;
-}
 
-.freddylogo{
-  width: 100%;
-  width: 180px;
-  height: 142px;
-  position: relative;
- display: block;
-  margin-left: 85%;
-  margin-top: -7.5%;
-border-radius: 5px;
-}
 
-.cazafantasmas {
-  line-height: 0;
-  font-size: 0;
-}
 
-.cazalogo {
-  width: 100%;
-  width: 180px;
-  height: 142px;
-  position: relative;
- display: block;
-  margin-left: 85%;
-  margin-top: -7.5%;
-border-radius: 5px;
-}
-
-.cyndilauper {
-  line-height: 0;
-  font-size: 0;
-}
-
-.cyndilogo {
-  width: 100%;
-  width: 180px;
-  height: 120px;
-  position: relative;
- display: block;
-  margin-left: 90%;
-  margin-top: -4%;
-border-radius: 5px;
-}
-.separacinco{
-  height: 4px;
-  background-color:rgb(0, 173, 0);
-
-}
 
 .ochentaycinco {
   
@@ -600,7 +426,7 @@ border-radius: 5px;
     padding-top: none;
     margin-top: 0%;
     animation: mymove2 1s infinite;
-margin-bottom: 2%;
+margin-bottom: 0%;
  }    
  
  @keyframes mymove2 {
@@ -608,57 +434,8 @@ margin-bottom: 2%;
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
-.madonna {
-  line-height: 0;
-  font-size: 0;
-}
 
-.madonnalogo {
-  width: 100%;
-  width: 160px;
-  height: 190px;
-  position: relative;
- display: block;
-  margin-left: 75%;
-  margin-top: -10%;
-border-radius: 5px;
-}
 
-.backfuture {
-  line-height: 0;
-  font-size: 0;
-}
-
-.futurelogo {
-  width: 100%;
-  width: 180px;
-  height: 140px;
-  position: relative;
- display: block;
-  margin-left: 90%;
-  margin-top: -7.4%;
-border-radius: 1px;
-}
-
-.mcgyver {
-  line-height: 0;
-  font-size: 0;
-}
-
-.mcgyverlogo {
-  width: 100%;
-  width: 190px;
-  height: 100px;
-  position: relative;
- display: block;
-  margin-left: 87%;
-  margin-top: -6%;
-border-radius: 1px;
-}
-.separaseis {
-  height: 4px;
-  background-color: rgb(0, 177, 0);
-}
 
  .ochentayseis {
     height: auto;
@@ -671,7 +448,7 @@ border-radius: 1px;
     font-size: 40px;
     color: fuchsia;
     padding-top: none;
-    margin-top: 0.4%;
+    margin-top: 0%;
     animation: mymove2 1s infinite;
 
  }
@@ -687,54 +464,17 @@ border-radius: 1px;
 
 .alflogo {
   width: 100%;
-  width: 230px;
-  height: 250px;
-  position: relative;
- display: block;
-  margin-left: 85%;
-  margin-top: -13.2%;
-border-radius: 1px;
-}
-
-.karatekid {
-  line-height: 0;
-  font-size: 0;
-}
-
-.karatelogo {
-  width: 100%;
-  width: 210px;
+  width: 100px;
   height: 120px;
   position: relative;
  display: block;
-  margin-left: 80%;
+  margin-left: 50%;
   margin-top: -4%;
-border-radius: 5px;
+border-radius: 1px;
 }
 
 
 
-.critters {
-  line-height: 0;
-  font-size: 0;
-}
-
-.critterslogo {
-  width: 100%;
-  width: 220px;
-  height: 90px;
-  position: relative;
- display: block;
-  margin-left: 80%;
-  margin-top: -6%;
-border-radius: 5px;
-}
-
-.separasiete {
-  height: 4px;
-  background-color: rgb(0, 172, 0);
-  margin-top: 2%;
-}
 
  .ochentaysiete {
     height: auto;
@@ -747,8 +487,8 @@ border-radius: 5px;
     font-size: 40px;
     color: fuchsia;
     padding-top: none;
-    margin-top: -0.75%;
-    margin-bottom: 2.9%;
+    margin-top: 0%;
+    margin-bottom: 0%;
     animation: mymove2 1s infinite;
 
  }
@@ -757,21 +497,7 @@ border-radius: 5px;
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
-            .lostboys {
-              line-height: 0;
-              font-size: 0;
-            }
-
-            .lostlogo {
-              width: 100%;
-              width: 300px;
-              height: 90px;
-              position: relative;
-             display: block;
-              margin-left: 80%;
-              margin-top: -6.5%;
-            border-radius: 5px;
-            }
+            
 
             .maxhead {
               line-height: 0;
@@ -780,55 +506,16 @@ border-radius: 5px;
 
             .maxlogo {
               width: 100%;
-              width: 300px;
-              height: 150px;
+              width: 280px;
+              height: 100px;
               position: relative;
              display: block;
-              margin-left: 60%;
-              margin-top: -7.9%;
+              margin-left: 75%;
+              margin-top: -5%;
             border-radius: 5px;
             }
 
-            .gunsroses{
-              line-height: 0;
-              font-size: 0;
-            }
 
-.gunslogo {
-  width: 100%;
-  width: 150px;
-  height: 200px;
-  position: relative;
- display: block;
-  margin-left: 88%;
-  margin-top: -10.6%;
-border-radius: 5px;
-}
-
-.dirtydancing {
-  line-height: 0;
-  font-size: 0;
-}
-
-.dirtylogo {
-  width: 100%;
-  width: 250px;
-  height: 190px;
-  position: relative;
- display: block;
- margin-left: 80%;
-  margin-top: -11%;
-  border-radius: 5px;
-}
-
-
-
-.separaocho {
-  height: 4px;
-  background-color:rgb(0, 175, 0);
-  margin-top: 2%;
- 
-}
 
 .ochentayocho {
     height: auto;
@@ -842,87 +529,33 @@ border-radius: 5px;
     font-size: 40px;
     color: fuchsia;
     padding-top: none;
-    margin-top: -1.1%;
-    margin-bottom: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
     animation: mymove2 1s infinite;
 
 }
+
+.moonwalker{
+  line-height: 0;
+  font-size: 0;
+}
+
+.moonwalk {
+  width: 100%;
+  width: 115px;
+  height: 145px;
+  position: relative;
+ display: block;
+  margin-left: 88%;
+  margin-top: -6%;
+border-radius: 1px;
+}
+
 @keyframes mymove2 {
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
             }
 
-.beetlejuice {
-  line-height: 0;
-  font-size: 0;
-}
-
-.beetlelogo {
-  width: 100%;
-  width: 220px;
-  height: 130px;
-  position: relative;
- display: block;
- margin-left: 83%;
-  margin-top: -6.8%;
-  border-radius: 80%;
-}
-
-.bloodlogo {
-  line-height: 0;
-  font-size: 0;
-}
-
-
-.bloodspot {
-  width: 100%;
-  width: 250px;
-  height: 160px;
-  position: relative;
- display: block;
- margin-left: 85%;
-  margin-top: -8.5%;
-  border-radius: 5px;
-}
-
-.moonwalker {
-  line-height: 0;
-  font-size: 0;
-}
-
-
-.moonlogo {
-  width: 100%;
-  width: 210px;
-  height: 200px;
-  position: relative;
- display: block;
-  margin-left: 60%;
-  margin-top: -10.5%;
-border-radius: 5px;
-}
-
-.chucky {
-  line-height: 0;
-  font-size: 0;
-}
-
-.chuckylogo {
-  width: 100%;
-  width: 230px;
-  height: 240px;
-  position: relative;
- display: block;
-  margin-left: 80%;
-  margin-top: -12.7%;
-border-radius: 5px;
-}
-
-.separanueve {
-  height: 4px;
-  background-color: rgb(0, 173, 0);
-  margin-top: 2%;
-}
 
 
 .ochentaynueve {
@@ -936,79 +569,180 @@ border-radius: 5px;
     font-size: 40px;
     color: fuchsia;
     padding-top: none;
-    margin-top: -1%;
+    margin-top: 0%;
     animation: mymove2 1s infinite;
 
 }
+.bartlogo {
+  margin-left: 87%;
+  margin-top: -5%;
+}
+
 @keyframes mymove2 {
     0% {color: cyan; left: 50px; top:0px; }
     100% {color: fuchsia; left: 50px; top:0px;  }
        }
        
-       .batman {
-        line-height: 0;
-        font-size: 0;
-       }
+       
+
+@media (min-width:1650px) and (max-width:1860px) {
 
 
-      .batmanlogo {
-        width: 100%;
-        width: 230px;
-        height: 117px;
-        position: relative;
-       display: block;
-        margin-left: 85%;
-        margin-top: -4%;
-      border-radius: 5px;
-      }
+
+  li, a {
+    font-weight: 300px;
+    font-size: 9px;
+    
+  }
+  
  
-.tales {
-  line-height: 0;
-  font-size: 0;
+  
+   }
 
+@media (min-width:1085px) and (max-width:1650px){
+
+  p {
+    font-size: 12px;
+    margin-top: 5%;
+  }
+  h1 {
+    height: 150px;
+    font-size: x-large;
+      }
+  li,a {
+    font-weight: 200px;
+    font-size: 7px;
+  }
+
+
+  h2 {
+    font-size: 30px;
+  }
 }
 
-.taleslogo {
+@media (min-width:0px) and (max-width:1215px){
+  .moonwalker {
+    display: none;
+  }
+  .bartlogo {
+    display: none;
+  }
+} 
 
-  width: 100%;
-  width: 230px;
-  height: 140px;
-  position: relative;
+@media (min-width:651px) and (max-width:1084px) {
+
+  .carousel-css {
+    background-image: url(./images/sddefault.jpg);
+   width: 50%;
+   height: 400px;
+   margin: 10px auto;
+   margin-bottom: 2%;
+   overflow: hidden;
+   position: relative;
+   border-radius: 5px;
+   
+   
+ }
+
+
+
+
+  li,a {
+    font-weight: 190px;
+    font-size: 6px;
+  }
+  h1 {
+    height: 100px;
+    font-size: medium;
+      }
+  div img {
+    opacity: 0%;
+  }
+
+  p {
+    font-size: 10px;
+    margin-top: 5%;
+  }
+  
+
+.terminator {   display: none;
+}
+.alf {
+  display: none;
+}
+.maxhead {
+  display: none;
+}
+.mariologo {
+  display: none;
+}
+.mtvlogo1 {
+  display: none;
+}
+.pac1 {
+  display: none;
+}
+.pac2 {
+  display: none;
+}
+}
+
+
+
+@media (min-width:0px) and (max-width:650px){
+
+  .carousel-css {
+    background-image: url(./images/sddefault.jpg);
+   width: 40%;
+   height: 200px;
+   margin: 10px auto;
+   margin-bottom: 2%;
+   overflow: hidden;
+   position: relative;
+   border-radius: 5px;
+   
+   
+ }
+
+li,a {
+  font-weight: 100px;
+  font-size: 5px;
+}
+.terminator {
+  display: none;
+}
+.alf {
+  display: none;
+}
+.maxhead {
+  display: none;
+}
+.mariologo {
+  display: none;
+}
+.mtvlogo1 {
+  display: none;
+}
+.pac1 {
+  display: none;
+}
+.pac2 {
+  display: none;
+}
+h1 {
+  height: 150px;
+  font-size: medium;
+    }
+p {
+  font-weight: 20px;
+  font-size: 8px;
+  margin-top: 2%;
+}
+
+nav ul {
  display: block;
-  margin-left: 85%;
-  margin-top: -7.4%;
-border-radius: 5px;
+ font-size: large;
+ 
 }
 
-
-.back2 {
-  line-height: 0;
-  font-size: 0;
-}
-
-.backlogo2 {
-  width: 100%;
-  width: 230px;
-  height: 100px;
-  position: relative;
- display: block;
-  margin-left: 85%;
-  margin-top: -5.3%;
-border-radius: 5px;
-}
-
-.bart {
-  line-height: 0;
-  font-size: 0;
-}
-
-.bartlogo {
-  width: 100%;
-  width: 120px;
-  height: 110px;
-  position: relative;
- display: block;
-  margin-left: 88%;
-  margin-top: -5%;
-border-radius: 5px;
 }
