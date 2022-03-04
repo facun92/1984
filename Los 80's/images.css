@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    }
+.cuerpo{
+    background-image: url(./images/real.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: ridge;
+    border-color: rgb(0, 168, 0);
+    height: auto;
+    width: auto;
+    
+}
+li, a {
+  font-family: 'Press Start 2P', cursive;
+    font-weight: 500px;
+    font-size: 10px;
+    color: rgb(31, 253, 31);
+    text-decoration: none;
+
+
+}
+h1 {
+    height: 200px;
+   width: auto;
+font-size: larger;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+
+font {
+  color: red
+}
+
+  ul {
+   color: rgb(0, 175, 0);
+  }
+
+
+header {
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -3px 8%;
+    border-style: ridge;
+    border-color:  rgb(0, 185, 0)
+    
+
+    
+}
+
+.cabecera {
+  font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    color:  red;
+    width: 50%;
+    height: 50%;
+    font-size: 90px;
+    margin-right: 10%;
+    animation: mymove 2s infinite;
+    
+}
+
+@keyframes mymove {
+    0% {color: red; left: 50px; top:0px; }
+    100% {color: rgb(0, 255, 0); left: 50px; top: 0px; }
+    
+}
+ 
+.nav1 {
+
+    list-style: none;
+    
+ }
+
+ .nav1 li {
+    display: inline-block;
+    padding: 0px 20px;
+
+ }
+
+ .nav1 li a {
+
+    transition: all 0.3s ease 0s;
+ }
+  .nav1 li a:hover {
+      color: red;
+  }
+
+  .ochocero {
+    font-family: 'Press Start 2P', cursive;
+      width: 100%;
+      font-size: 40px;
+      color: red;
+      padding-top: 10px;
+      margin-top: 0%;
+      animation: mymove2 1s infinite;
+      
+  }
+   
+
+  @keyframes mymove2 {
+    0% {color: red; left: 50px; top:0px; }
+    100% {color: rgb(0, 192, 0); left: 50px; top:0px;  }
+            }
+  
+  .separa{
+      height: 5px;
+      color: aqua;
+      background-color: fuchsia;
+      
+  }
+  
+            body { margin: 0; background: #333; }
+
+
+.fotos1 { 
+    
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+  
+}
+.photo1 { 
+    
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+  margin: .5vw; 
+  max-width: 100%;
+  max-height: 100%;
+}
+div img { 
+  width: 100%; 
+  height: auto;
+  border-radius: 5%;
+}
+@media screen and (max-width: 400px) {
+  .fotos1 div { margin: 0; }
+  .fotos1 { padding: 0; }
+  
+}
+
+.ochouno {
+    font-family: 'Press Start 2P', cursive;
+      width: 100%;
+      font-size: 40px;
+      color: fuchsia;
+      padding-top: 1%;
+      margin-top: 0%;
+      animation: mymove2 1s infinite;
+  
+  }
+  @keyframes mymove2 {
+      0% {color: red; left: 50px; top:0px; }
+      100% {color: rgb(0, 255, 0); left: 50px; top:0px;  }
+              }
+
+.separados {
+    height: 5px;
+    color: aqua;
+    background-color: fuchsia;
+    
+}
+
+              .fotos2 { 
+                padding: .5vw;
+                font-size: 0;
+                display: -ms-flexbox;
+                -ms-flex-wrap: wrap;
+                -ms-flex-direction: column;
+                -webkit-flex-flow: row wrap; 
+                flex-flow: row wrap; 
+                display: -webkit-box;
+                display: flex;
+              }
+              .photo2 { 
+                -webkit-box-flex: auto;
+                -ms-flex: auto;
+                flex: auto; 
+                width: 200px; 
+                margin: .5vw; 
+              }
+              div img { 
+                width: 100%; 
+                height: auto; 
+              }
+              @media screen and (max-width: 400px) {
+                .fotos1 div { margin: 0; }
+                .fotos1 { padding: 0; }
+                
+              }
+              .ochodos {
+                font-family: 'Press Start 2P', cursive;
+                  width: 100%;
+                  font-size: 40px;
+                  color: fuchsia;
+                  padding-top: 1%;
+                  margin-top: 0%;
+                  animation: mymove2 1s infinite;
+              
+              
+               }
+               @keyframes mymove2 {
+                  0% {color: cyan; left: 50px; top:0px; }
+                  100% {color: fuchsia; left: 50px; top:0px;  }
+                          }
+                  
+                          .fotos3 { 
+                            padding: .5vw;
+                            font-size: 0;
+                            display: -ms-flexbox;
+                            -ms-flex-wrap: wrap;
+                            -ms-flex-direction: column;
+                            -webkit-flex-flow: row wrap; 
+                            flex-flow: row wrap; 
+                            display: -webkit-box;
+                            display: flex;
+                          }
+                          .photo3 { 
+                            -webkit-box-flex: auto;
+                            -ms-flex: auto;
+                            flex: auto; 
+                            width: 200px; 
+                            margin: .5vw; 
+                          }
+                         
+                          .separatres{
+                            height: 5px;
+                            color: aqua;
+                            background-color: fuchsia;
+                            
+                          }
+                          .ochotres {
+                            font-family: 'Press Start 2P', cursive;
+                              width: 100%;
+                              font-size: 40px;
+                              color: fuchsia;
+                              padding-top: 1%;
+                              margin-top: 0%;
+                              animation: mymove2 1s infinite;
+                          
+                          
+                           }
+                           @keyframes mymove2 {
+                              0% {color: cyan; left: 50px; top:0px; }
+                              100% {color: fuchsia; left: 50px; top:0px;  }
+                                      }
+                              
+                                      .fotos4 { 
+                                        padding: .5vw;
+                                        font-size: 0;
+                                        display: -ms-flexbox;
+                                        -ms-flex-wrap: wrap;
+                                        -ms-flex-direction: column;
+                                        -webkit-flex-flow: row wrap; 
+                                        flex-flow: row wrap; 
+                                        display: -webkit-box;
+                                        display: flex;
+                                      }
+                                      .photo4 { 
+                                        -webkit-box-flex: auto;
+                                        -ms-flex: auto;
+                                        flex: auto; 
+                                        width: 200px; 
+                                        margin: .5vw; 
+                                      }
+                                      .separacuatro{
+                                        height: 5px;
+                                        color: aqua;
+                                        background-color: fuchsia;
+                                        
+                                      }
+                                      .ochocuatro{
+                                        font-family: 'Press Start 2P', cursive;
+                                          width: 100%;
+                                          font-size: 40px;
+                                          color: fuchsia;
+                                          padding-top: 1%;
+                                          margin-top: 0%;
+                                          animation: mymove2 1s infinite;
+                                      
+                                      
+                                       }
+                                       @keyframes mymove2 {
+                                          0% {color: cyan; left: 50px; top:0px; }
+                                          100% {color: fuchsia; left: 50px; top:0px;  }
+                                                  }
+                                          
+                                                  .fotos5 { 
+                                                    padding: .5vw;
+                                                    font-size: 0;
+                                                    display: -ms-flexbox;
+                                                    -ms-flex-wrap: wrap;
+                                                    -ms-flex-direction: column;
+                                                    -webkit-flex-flow: row wrap; 
+                                                    flex-flow: row wrap; 
+                                                    display: -webkit-box;
+                                                    display: flex;
+                                                  }
+                                                  .photo5 { 
+                                                    -webkit-box-flex: auto;
+                                                    -ms-flex: auto;
+                                                    flex: auto; 
+                                                    width: 200px; 
+                                                    margin: .5vw; 
+                                                  }
+                                                  .separacinco{
+                                                    height: 5px;
+                                                    color: aqua;
+                                                    background-color: fuchsia;
+                                                    
+                                                  }
+                                                  .ochocinco{
+                                                    font-family: 'Press Start 2P', cursive;
+                                                      width: 100%;
+                                                      font-size: 40px;
+                                                      color: fuchsia;
+                                                      padding-top: 1%;
+                                                      margin-top: 0%;
+                                                      animation: mymove2 1s infinite;
+                                                  
+                                                  
+                                                   }
+                                                   @keyframes mymove2 {
+                                                      0% {color: cyan; left: 50px; top:0px; }
+                                                      100% {color: fuchsia; left: 50px; top:0px;  }
+                                                              }
+                                                      
+                                                              .fotos6{ 
+                                                                padding: .5vw;
+                                                                font-size: 0;
+                                                                display: -ms-flexbox;
+                                                                -ms-flex-wrap: wrap;
+                                                                -ms-flex-direction: column;
+                                                                -webkit-flex-flow: row wrap; 
+                                                                flex-flow: row wrap; 
+                                                                display: -webkit-box;
+                                                                display: flex;
+                                                              }
+                                                              .photo6 { 
+                                                                -webkit-box-flex: auto;
+                                                                -ms-flex: auto;
+                                                                flex: auto; 
+                                                                width: 200px; 
+                                                                margin: .5vw; 
+                                                              }
+                                                             
