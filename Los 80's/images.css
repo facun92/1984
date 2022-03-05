@@ -362,4 +362,85 @@ div img {
                                                                 width: 200px; 
                                                                 margin: .5vw; 
                                                               }
-                                                             
+                                                         .separaseis{
+                                                                height: 5px;
+                                                                color: aqua;
+                                                                background-color: fuchsia;
+                                                                
+                                                              }
+                                                              .ochoseis{
+                                                                font-family: 'Press Start 2P', cursive;
+                                                                  width: 100%;
+                                                                  font-size: 40px;
+                                                                  color: fuchsia;
+                                                                  padding-top: 1%;
+                                                                  margin-top: 0%;
+                                                                  animation: mymove2 1s infinite;
+                                                              
+                                                              
+                                                               }
+                                                               @keyframes mymove2 {
+                                                                  0% {color: cyan; left: 50px; top:0px; }
+                                                                  100% {color: fuchsia; left: 50px; top:0px;  }
+                                                                          }
+                                                                  
+                                                                          .fotos7{ 
+                                                                            padding: .5vw;
+                                                                            font-size: 0;
+                                                                            display: -ms-flexbox;
+                                                                            -ms-flex-wrap: wrap;
+                                                                            -ms-flex-direction: column;
+                                                                            -webkit-flex-flow: row wrap; 
+                                                                            flex-flow: row wrap; 
+                                                                            display: -webkit-box;
+                                                                            display: flex;
+                                                                          }
+                                                                          .photo7 { 
+                                                                            -webkit-box-flex: auto;
+                                                                            -ms-flex: auto;
+                                                                            flex: auto; 
+                                                                            width: 200px; 
+                                                                            margin: .5vw; 
+                                                                          }
+
+                                                                          .separasiete{
+                                                                            height: 5px;
+                                                                            color: aqua;
+                                                                            background-color: fuchsia;
+                                                                            
+                                                                          }
+                                                                          .ochosiete{
+                                                                            font-family: 'Press Start 2P', cursive;
+                                                                              width: 100%;
+                                                                              font-size: 40px;
+                                                                              color: fuchsia;
+                                                                              padding-top: 1%;
+                                                                              margin-top: 0%;
+                                                                              animation: mymove2 1s infinite;
+                                                                          
+                                                                          
+                                                                           }
+                                                                           @keyframes mymove2 {
+                                                                              0% {color: cyan; left: 50px; top:0px; }
+                                                                              100% {color: fuchsia; left: 50px; top:0px;  }
+                                                                                      }
+                                                                              
+                                                                                      .fotos8 { 
+                                                                                        padding: .5vw;
+                                                                                        font-size: 0;
+                                                                                        display: -ms-flexbox;
+                                                                                        -ms-flex-wrap: wrap;
+                                                                                        -ms-flex-direction: column;
+                                                                                        -webkit-flex-flow: row wrap; 
+                                                                                        flex-flow: row wrap; 
+                                                                                        display: -webkit-box;
+                                                                                        display: flex;
+                                                                                      }
+                                                                                      .photo8 { 
+                                                                                        -webkit-box-flex: auto;
+                                                                                        -ms-flex: auto;
+                                                                                        flex: auto; 
+                                                                                        width: 200px; 
+                                                                                        margin: .5vw; 
+                                                                                      }
+                                                                         
