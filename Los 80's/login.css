@@ -1,333 +1,291 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    }
-.cuerpo{
-    background-image: url(./images/real.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-style: ridge;
-    border-color: rgb(0, 168, 0);
-    height: auto;
-    width: auto;
-    
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
-li, a {
-  font-family: 'Press Start 2P', cursive;
-    font-weight: 500px;
-    font-size: 10px;
-    color: rgb(31, 253, 31);
-    text-decoration: none;
-
-
+.cuerpo {
+  background-image: url(./images/real.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-style: ridge;
+  border-color: rgb(0, 168, 0);
+  height: auto;
+  width: auto;
+}
+li,
+a {
+  font-family: "Press Start 2P", cursive;
+  font-weight: 500px;
+  font-size: 10px;
+  color: rgb(31, 253, 31);
+  text-decoration: none;
 }
 h1 {
-    height: 200px;
-   width: auto;
-font-size: larger;
-display: flex;
-justify-content: center;
-align-items: center;
+  height: 200px;
+  width: auto;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-  
 
 font {
-  color: red
+  color: red;
 }
 
-  ul {
-   color: rgb(0, 175, 0);
-  }
+ul {
+  color: rgb(0, 175, 0);
+}
 header {
-     
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: -3px 8%;
-    border-style: ridge;
-    border-color:  rgb(0, 185, 0)
-    
-
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: -3px 8%;
+  border-style: ridge;
+  border-color: rgb(0, 185, 0);
 }
 
 .cabecera {
-  font-family: 'Press Start 2P', cursive;
-    display: flex;
-    justify-content: flex-start;
-    cursor: pointer;
-    color:  red;
-    width: 50%;
-    height: 50%;
-    font-size: 90px;
-    margin-right: 10%;
-    animation: mymove 2s infinite;
-    
+  font-family: "Press Start 2P", cursive;
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+  color: red;
+  width: 50%;
+  height: 50%;
+  font-size: 90px;
+  margin-right: 10%;
+  animation: mymove 2s infinite;
 }
 
 @keyframes mymove {
-    0% {color: red; left: 50px; top:0px; }
-    100% {color: rgb(0, 255, 0); left: 50px; top: 0px; }
-    
+  0% {
+    color: red;
+    left: 50px;
+    top: 0px;
+  }
+  100% {
+    color: rgb(0, 255, 0);
+    left: 50px;
+    top: 0px;
+  }
 }
- 
+
 .nav1 {
+  list-style: none;
+}
 
-    list-style: none;
-    
- }
+.nav1 li {
+  display: inline-block;
+  padding: 0px 20px;
+}
 
- .nav1 li {
-    display: inline-block;
-    padding: 0px 20px;
+.nav1 li a {
+  transition: all 0.3s ease 0s;
+}
+.nav1 li a:hover {
+  color: red;
+}
 
- }
+.loginbox {
+  background: none;
 
- .nav1 li a {
+  height: 500px;
+  width: 450px;
+  color: cyan;
+  top: 60%;
+  left: 45%;
+  position: relative;
+  transform: translate(-50%, -45%);
+  box-sizing: border-box;
+  padding: 70% 30%;
+}
 
-    transition: all 0.3s ease 0s;
- }
-  .nav1 li a:hover {
-      color: red;
-  }
+.loginbox .avatar {
+  box-shadow: 0px 3px 24px 11px rgba(0, 82, 242, 0.75);
+  -webkit-box-shadow: 0px 3px 24px 11px rgba(0, 82, 242, 0.75);
+  -moz-box-shadow: 0px 3px 24px 11px rgba(0, 82, 242, 0.75);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  top: -40px;
+  left: 50%;
+}
 
-  .loginbox {
-      background: none;
-     
-height: 500px;
-width: 450px;
-color: cyan;
-top: 60%;
-left: 45%;
-position: relative;
-transform: translate(-50%, -45%);
-box-sizing: border-box;
-padding: 70%  30%;
-  }
+.loginbox label {
+  font-size: x-large;
+  color: cyan;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+.loginbox input {
+  color: fuchsia;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.loginbox input[type="text"] .loginbox input[type="password"] {
+  border: none;
+  border-bottom: 1px solid cyan;
+  background: transparent;
+  outline: none;
+  font-size: 50px;
+  border-radius: 5px;
+}
+.loginbox input[type="submit"] {
+  box-shadow: 0px 3px 24px 11px rgba(223, 0, 242, 0.75);
+  -webkit-box-shadow: 0px 3px 24px 11px rgba(223, 0, 242, 0.75);
+  -moz-box-shadow: 0px 3px 24px 11px rgba(223, 0, 242, 0.75);
+  border: none;
+  outline: none;
+  background: fuchsia;
+  color: cyan;
+  font-size: large;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.loginbox input[type="submit"]:hover {
+  background-color: cyan;
+  color: fuchsia;
+  box-shadow: 0px 3px 24px 11px rgba(0, 242, 228, 0.75);
+  -webkit-box-shadow: 0px 3px 24px 11px rgba(0, 242, 228, 0.75);
+  -moz-box-shadow: 0px 3px 24px 11px rgba(0, 242, 228, 0.75);
+  cursor: pointer;
+  margin-bottom: 20%;
+}
 
-  .loginbox .avatar {
-    box-shadow: 0px 3px 24px 11px rgba(0,82,242,0.75);
-    -webkit-box-shadow: 0px 3px 24px 11px rgba(0,82,242,0.75);
-    -moz-box-shadow: 0px 3px 24px 11px rgba(0,82,242,0.75);
-width: 200px;
-height: 200px;
-border-radius: 50%;
-position: relative;
-top: -40px;
-left: 50%;
-  }
+.lost a {
+  color: cyan;
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: inline-block;
+  text-align: center;
+}
+.lost a:hover {
+  color: fuchsia;
+}
 
- 
-
-  .loginbox label {
-      font-size: x-large;
-      color: cyan;
-      margin: 0;
-      padding: 0;
-      font-weight: bold;
-      display: block;
-  }
-  .loginbox input {
-     color: fuchsia;
-width: 200px;
-height: 50px;
-margin-bottom: 20px;
-
-
-  }
-  .loginbox input[type="text"]
-  .loginbox input[type="password"] {
-      border: none;
-      border-bottom: 1px solid cyan;
-      background: transparent;
-      outline: none;
-      font-size: 50px;
-      border-radius: 5px;
-  }
-  .loginbox input[type="submit"] {
-    box-shadow: 0px 3px 24px 11px rgba(223,0,242,0.75);
-    -webkit-box-shadow: 0px 3px 24px 11px rgba(223,0,242,0.75);
-    -moz-box-shadow: 0px 3px 24px 11px rgba(223,0,242,0.75);
-      border: none;
-      outline: none;
-      background: fuchsia;
-      color: cyan;
-      font-size: large;
-      border-radius: 5px;
-      margin-top: 20px;
-    
-  }
-  .loginbox input[type="submit"]:hover {
-      background-color: cyan;
-      color: fuchsia;
-      box-shadow: 0px 3px 24px 11px rgba(0,242,228,0.75);
--webkit-box-shadow: 0px 3px 24px 11px rgba(0,242,228,0.75);
--moz-box-shadow: 0px 3px 24px 11px rgba(0,242,228,0.75);
-cursor: pointer;
-margin-bottom: 20%;
-
-  }
-
- 
-  
-  .lost a {
-      color: cyan;
-    text-decoration: none;
-    font-size: 10px;
-    line-height: 20px;
-margin-top: 50px;
-margin-left: 50px;
-display: inline-block;
-text-align: center;
-  }
-  .lost a:hover {
-      color: fuchsia;
-  }
-
-
-  .pie {
-    background-image: url(./images/pacman.jpg);
-    height: 150px;
-    width: auto;
-    border-style: ridge;
-    border-color:rgb(0, 165, 0);
-    
-    
-    
-    
-
+.pie {
+  background-image: url(./images/pacman.jpg);
+  height: 150px;
+  width: auto;
+  border-style: ridge;
+  border-color: rgb(0, 165, 0);
 }
 .pie h2 {
-    background-image: url(./images/pacman.jpg);
-    color: rgb(0, 165, 0);
-    font-size: 30px;
-    font-family: 'Press Start 2P', cursive;
-  
+  background-image: url(./images/pacman.jpg);
+  color: rgb(0, 165, 0);
+  font-size: 30px;
+  font-family: "Press Start 2P", cursive;
 }
 
 .pie p {
   height: 50px;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   background-image: url(./images/pacman.jpg);
   color: red;
   display: flex;
-  justify-content: center
-   
+  justify-content: center;
 }
 
-                                                                                                            
-@media (min-width:1085px) and (max-width:1650px){
-
-    p {
-      font-size: 12px;
-      margin-top: 5%;
-    }
-    h1 {
-      height: 150px;
-      font-size: x-large;
-        }
-    li,a {
-      font-weight: 200px;
-      font-size: 7px;
-    }
-  
-  
-    h2 {
-      font-size: 30px;
-    }
+@media (min-width: 1085px) and (max-width: 1650px) {
+  p {
+    font-size: 12px;
+    margin-top: 5%;
   }
-                                                                                                              @media (min-width:0px) and (max-width:1215px){
-                                                                                                                li,a {
-                                                                                                                  font-weight: 190px;
-                                                                                                                  font-size: 6px;
-                                                                                                                }
-                                                                                                                h1 {
-                                                                                                                  height: 100px;
-                                                                                                                  font-size: medium;
-                                                                                                                    }
-                                                                                                               
-                                                                                                              
-                                                                                                                p {
-                                                                                                                  font-size: 10px;
-                                                                                                                  margin-top: 5%;
-                                                                                                                }
-                                                                                                                
-                                                                                                              } 
-                                                                                                              
-                                                                                                              @media (min-width:651px) and (max-width:1084px) {
-                                                                                                              
-                                                                                                                
-                                                                                                               
-                                                                                                              
-                                                                                                              
-                                                                                                              
-                                                                                                              
-                                                                                                                li,a {
-                                                                                                                  font-weight: 190px;
-                                                                                                                  font-size: 8px;
-                                                                                                                }
-                                                                                                                h1 {
-                                                                                                                  height: 100px;
-                                                                                                                  font-size: medium;
-                                                                                                                    }
-                                                                                                               
-                                                                                                              
-                                                                                                                p {
-                                                                                                                  font-size: 10px;
-                                                                                                                  margin-top: 5%;
-                                                                                                                }
-                                                                                                                
-                                                                                                              
-                                                                                                           
-                                                                                                              }
-                                                                                                              
-                                                                                                              
-                                                                                                              
-                                                                                                              @media (min-width:0px) and (max-width:650px){
-                                                                                                              
-                                                                                                                
-                                                                                                               .loginbox .avatar {
-                                                                                                                   opacity: 0;
-                                                                                                                    
-                                                                                                               }
-                                                                                                             
+  h1 {
+    height: 150px;
+    font-size: x-large;
+  }
+  li,
+  a {
+    font-weight: 200px;
+    font-size: 7px;
+  }
 
-                                                                                                              li,a {
-                                                                                                                font-weight: 100px;
-                                                                                                                font-size: 5px;
-                                                                                                              }
-                                                                                                           
-                                                                                                              h1 {
-                                                                                                                height: 150px;
-                                                                                                                font-size: medium;
-                                                                                                                  }
-                                                                                                              p {
-                                                                                                                font-weight: 20px;
-                                                                                                                font-size: 8px;
-                                                                                                                margin-top: 2%;
-                                                                                                              }
-                                                                                                              
-                                                                                                              nav ul {
-                                                                                                               display: block;
-                                                                                                               font-size: large;
-                                                                                                               
-                                                                                                              }
-                                                                                                              .loginbox {
-                                                                                                                background: none;
-                                                                                                               
-                                                                                                          height: 500px;
-                                                                                                          width: 450px;
-                                                                                                          color: cyan;
-                                                                                                          top: 60%;
-                                                                                                          left: 45%;
-                                                                                                          position: relative;
-                                                                                                          transform: translate(-50%, -70%);
-                                                                                                          box-sizing: border-box;
-                                                                                                          padding: 70%  30%;
-                                                                                                            }
-                                                                                                              
-                                                                                                              }
+  h2 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 0px) and (max-width: 1215px) {
+  li,
+  a {
+    font-weight: 190px;
+    font-size: 6px;
+  }
+  h1 {
+    height: 100px;
+    font-size: medium;
+  }
+
+  p {
+    font-size: 10px;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 1084px) {
+  li,
+  a {
+    font-weight: 190px;
+    font-size: 8px;
+  }
+  h1 {
+    height: 100px;
+    font-size: medium;
+  }
+
+  p {
+    font-size: 10px;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 650px) {
+  .loginbox .avatar {
+    opacity: 0;
+  }
+
+  li,
+  a {
+    font-weight: 100px;
+    font-size: 5px;
+  }
+
+  h1 {
+    height: 150px;
+    font-size: medium;
+  }
+  p {
+    font-weight: 20px;
+    font-size: 8px;
+    margin-top: 2%;
+  }
+
+  nav ul {
+    display: block;
+    font-size: large;
+  }
+  .loginbox {
+    background: none;
+
+    height: 500px;
+    width: 450px;
+    color: cyan;
+    top: 60%;
+    left: 45%;
+    position: relative;
+    transform: translate(-50%, -70%);
+    box-sizing: border-box;
+    padding: 70% 30%;
+  }
+}
